@@ -19,9 +19,9 @@ I am using this with a Home Assistant eco-system, but this will work with effect
 - Competent power supply to power the Pi.
 - 3d printed housing to mount Pi and Display
 
-> All of these can be found on Amazon [HERE](https://www.amazon.com/hz/wishlist/ls/1XS56G6OG3PV?ref_=wl_share)
-> Direct link for Elecrow Crowvision 7inch [HERE](https://www.elecrow.com/crowvision-7-0-inch-touch-screen-capacitive-portable-hdmi-1024-600-ips-lcd-monitor-rear-fixing-for-raspberry-pi.html?idd=5)
-> Download the STL for the wall mount via [Printables](https://www.printables.com/model/774136-raspberry-pi-7-touch-display-flush-wall-mount-pane) or [Thingiverse](https://www.thingiverse.com/thing:6495742)
+All of these can be found on Amazon [HERE](https://www.amazon.com/hz/wishlist/ls/1XS56G6OG3PV?ref_=wl_share)  
+Direct link for Elecrow Crowvision 7inch [HERE](https://www.elecrow.com/crowvision-7-0-inch-touch-screen-capacitive-portable-hdmi-1024-600-ips-lcd-monitor-rear-fixing-for-raspberry-pi.html?idd=5)  
+Download the STL for the wall mount via [Printables](https://www.printables.com/model/774136-raspberry-pi-7-touch-display-flush-wall-mount-pane) or [Thingiverse](https://www.thingiverse.com/thing:6495742)
 
 ## Writing Image to SD Card
 
