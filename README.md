@@ -64,7 +64,7 @@ Install Chromium Web browser (We are using Chromium to display webpage - you can
 Next For our little OS python based menu, install python, Python toolkit, PIP & PySimpleGUI  
 `sudo apt install python`  
 `sudo apt-get install python3-tk`  
-`install pip: 'sudo apt install python3-pip`  
+`sudo apt install python3-pip`  
 `pip install --upgrade PySimpleGUI`
 
 Install wmctrl which is a command that can be used to interact with running applications, and in this case we use it to brings the menu to the top and keep it on top of the browser  
@@ -105,5 +105,4 @@ You can interact with the HomeAssistant dashboard using the touch interface, and
 ### Thanks & Credits
 
 Toni: creatingsmarthome.com  
-Mark: https://www.youtube.com/watch?v=4hN0_yGVdUQ  
-
+Mark: https://www.youtube.com/watch?v=4hN0_yGVdUQ
