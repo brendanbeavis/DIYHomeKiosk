@@ -1,0 +1,26 @@
+xset -dpms # turn off display power management system
+xset s noblank # turn off screen blanking
+xset s off # turn off screen saver
+
+# if Chromium crashed it may pop up error messages next time it starts. This is another feature that we don't want in a kiosk.
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/' ~/.config/chromium/'Local State'
+sed -i 's/"exited_cleanly":false/"exited_cleanly":true/; s/"exit_type":"[^"]\+"/"exit_type":"Normal"/' ~/.config/chromium/Default/Preferences
+
+#shutdown at night
+shutdown -h 22:50 &
+
+#sleep to let wifi connect
+sleep 5
+
+# Run Chromium in kiosk mode
+chromium-browser --noerrdialogs --disable-infobars --enable-features=OverlayScrollbar --kiosk http://192.168.0.5:8123 --check-for-update-interval=31536000 &
+
+#Run menu script
+python3 /home/pi/Menu.py &
+
+#keep menu on top
+while true
+do
+	wmctrl -a MENU
+	sleep 10
+done
