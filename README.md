@@ -73,14 +73,14 @@ Install wmctrl which is a command that can be used to interact with running appl
 ## Scripts
 
 First up, create Menu script  
-`sudo nano /home/pi/Menu.py`  
-<copy-paste> content from Meny.py file in this repo.  
+`sudo nano ~/Menu.py`  
+**_copy-paste_** content from _Meny.py_ file in this repo.  
 Note, edit the URL that you want the browser to load on launch.  
 Then, save and exit nano by pressing ctrl-x to request the exit then Y to confirm the save, and enter to complete the action and return to the console.
 
 Edit Openbox config (Openbox Window manager edits)  
 `sudo nano /etc/xdg/openbox/autostart`  
-<copy-paste> content from autostart file in this repo.  
+**_copy-paste_** content from _autostart_ file in this repo.  
 Note, edit the URL that you want the browser to load on launch.  
 Then, save and exit nano by pressing ctrl-x to request the exit then Y to confirm the save, and enter to complete the action and return to the console.
 
