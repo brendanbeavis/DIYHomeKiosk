@@ -104,5 +104,6 @@ You can interact with the HomeAssistant dashboard using the touch interface, and
 
 ### Thanks & Credits
 
-Toni: creatingsmarthome.com
-Mark: https://www.youtube.com/watch?v=4hN0_yGVdUQ
+Toni: creatingsmarthome.com  
+Mark: https://www.youtube.com/watch?v=4hN0_yGVdUQ  
+
