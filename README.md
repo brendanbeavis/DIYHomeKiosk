@@ -84,10 +84,10 @@ Edit Openbox config (Openbox Window manager edits)
 Note, edit the URL that you want the browser to load on launch.  
 Then, save and exit nano by pressing ctrl-x to request the exit then Y to confirm the save, and enter to complete the action and return to the console.
 
-Next, we need to start start the X server UI on boot, so, create bash profile:  
+Next, we need to start the X server UI on boot, so, create bash profile:  
 `sudo nano ~/.bash_profile`  
 Paste the following line in the file:  
-`[[-z $DISPLAY && $XDG_VTNR -eq 1]] && startx -- -nocursor`  
+`[[ -z $DISPLAY && $XDG_VTNR -eq 1]] && startx -- -nocursor`  
 Then, save and exit nano by pressing ctrl-x to request the exit then Y to confirm the save, and enter to complete the action and return to the console.
 
 That’s it, time to Reboot Pi (To a hopefully working Kiosk!)  
